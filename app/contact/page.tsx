@@ -2,7 +2,10 @@ import React from 'react'
 
 function ContectPage() {
   return (
-    <div>ContectPage</div>
+    <div className='container'>
+      
+      ContectPage
+      </div>
   )
 }
 

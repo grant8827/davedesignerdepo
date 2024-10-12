@@ -1,12 +1,24 @@
+
+"use client"
 import React from 'react'
+import 'react-data-grid/lib/styles.css';
+
+import DataGrid from 'react-data-grid';
 
 function HomePage() {
+  const columns = [
+    { key: 'id', name: 'ID' },
+    { key: 'title', name: 'Title' }
+  ];
+  
+  const rows = [
+    { id: 0, title: 'Example' },
+    { id: 1, title: 'Demo' }
+  ];
   return (
-    <div style={{padding:'200px'}}>
-        
-        <h2>HomePage</h2>
-        </div>
+    <DataGrid columns={columns} rows={rows} />
   )
 }
 
 export default HomePage
+

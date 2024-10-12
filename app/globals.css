@@ -16,7 +16,19 @@
 body {
 background-color: antiquewhite;
 overscroll-behavior: none;
-
+margin: 0 auto;
 }
 
+.container{
+  margin: 0 auto;
+  width: 80%;
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+  }
+  .container{
+    
+    margin-top: 20px;
+    
+    }
 
