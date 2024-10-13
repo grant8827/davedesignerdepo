@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import "../navbar/navbar.css";
+import '../styles/styles.css';
 import headbackground from '../assets/images/bgimage.png';
 function Navbar() {
   return (
@@ -20,9 +21,9 @@ function Navbar() {
 </ul>
    
     </div>
-    <div style={{width:'100%', height:'400px', alignItems:'center', justifyContent:'center'}} >
-    <h2 className='text-2xl text-orange-500' m-3>This is the Head</h2>
-    <p >Hello from head</p>
+    <div className='headText'>
+    <h2 className='text-6xl text-orange-500 m-6' m-3>This is the Head</h2>
+    <p className='m-8 text-white text-2xl' >Hello from head</p>
     <button>Shop Now</button>
     </div>
     
